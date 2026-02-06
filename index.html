@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ChillarAi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>💰 ChillarAi</h1>
+  <p>Save small. Grow big.</p>
+
+  <input type="number" id="expense" placeholder="Enter today's expense (₹)">
+  <button onclick="addExpense()">Add Expense</button>
+
+  <h3 id="suggestion"></h3>
+  <button id="saveBtn" onclick="saveChillar()" style="display:none;">
+    Save Chillar 💸
+  </button>
+
+  <h2>Total Saved: ₹<span id="saved">0</span></h2>
+
+  <script src="script.js"></script>
+</body>
+</html>
